@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             String email = editTextUsername.getText().toString().trim();
             String password = editTextPassword.getText().toString().trim();
             if (email.isEmpty() || password.isEmpty()) {
-                Toast.makeText(MainActivity.this, "Please fill in all fields.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Please fill in all fields To Continue.", Toast.LENGTH_SHORT).show();
             } else {
                 mAuth.signInWithEmailAndPassword(email, password)
                         .addOnCompleteListener(MainActivity.this, task -> {
