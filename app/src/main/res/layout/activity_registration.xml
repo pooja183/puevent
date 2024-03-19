@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RegisterUser">
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/username"
+        android:drawablePadding="20dp"
+        android:hint="@string/username_email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_register"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="20dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="25dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="20dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="25dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/roundcorner"
+        android:backgroundTint="@color/white"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_password"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

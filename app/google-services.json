@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "303829744741",
+    "project_id": "universityevent-8701c",
+    "storage_bucket": "universityevent-8701c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303829744741:android:9747f0c9f80fd88a02da8c",
+        "android_client_info": {
+          "package_name": "com.example.univerisityevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303829744741-u2nj9nt9565s272f2vikk41lkinoh7mk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.univerisityevent",
+            "certificate_hash": "62a55e4160945cccc94373a6ec1212c0a2694ce0"
+          }
+        },
+        {
+          "client_id": "303829744741-rjvtnrljmf171488n46r79c9k9k41vp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqHrOKqnsNoLo_yMisaCYav3hjgD5Wts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303829744741-rjvtnrljmf171488n46r79c9k9k41vp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

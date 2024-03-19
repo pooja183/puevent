@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Univerisity Event</string>
+    <string name="nul">null</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="forget_password">Forget password</string>
+    <string name="sign_in_with">SIGN IN WITH</string>
+    <string name="your_web_client_id" />
+    <string name="logo_description" />
+    <string name="username">Username</string>
+
+    <string name="image_description">image_description</string>
+    <string name="username_email">Username/Email</string>
+    <string name="Register">New Register</string>
+    <string name="reset">Reset</string>
+    <string name="new_register">New Register</string>
+</resources>
